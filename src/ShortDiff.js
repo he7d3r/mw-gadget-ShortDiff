@@ -12,7 +12,7 @@
  */
 /*jslint browser: true, white: true*/
 /*global jQuery, mediaWiki */
-( function ( $, mw /* , undefined */ ) {
+( function ( $, mw ) {
 'use strict';
 
 $( function () {
