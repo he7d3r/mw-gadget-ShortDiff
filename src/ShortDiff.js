@@ -5,9 +5,9 @@
  * http://wiki.org/w/index.php?diff=1[&oldid=1]
  * Due to rewrite rules may not work by default on wikis outside Wikimedia.
  *
- * @source: //meta.wikimedia.org/wiki/MediaWiki:Gadget-ShortDiff.js
+ * @source: [[meta:MediaWiki:Gadget-ShortDiff.js]]
  * @author: Krinkle, [[User:Helder.wiki]]
- * @revision: 3
+ * @revision: 4
  * @tracking: [[Special:GlobalUsage/User:Helder.wiki/Tools/ShortDiff.js]] ([[File:User:Helder.wiki/Tools/ShortDiff.js]])
  */
 /*jslint browser: true, white: true*/
