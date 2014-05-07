@@ -15,28 +15,28 @@
 ( function ( $, mw /* , undefined */ ) {
 'use strict';
 
-$(function () {
-	$('a').live('click', function () {
+$( function () {
+	$( document ).on( 'click', 'a', function () {
 		var	newHref, oldidVal,
 			href = $(this).attr('href'),
 			diffVal = mw.util.getParamValue('diff', href);
 		if ( !href
-			|| $.inArray( diffVal, [undefined, null, '', 0, '0', 'cur'] ) !== -1
+			|| $.inArray( diffVal, [ undefined, null, '', 0, '0', 'cur' ] ) !== -1
 			|| $(this).parent().attr( 'id' ) === 't-permalink'
 			|| ( href.indexOf( location.host ) === -1
-				&& href.indexOf('/w/index.php') !== 0
-				&& href.indexOf('/wiki/') !== 0
+				&& href.indexOf( '/w/index.php' ) !== 0
+				&& href.indexOf( '/wiki/' ) !== 0
 			)
 		) {
 			return;
 		}
-		newHref = mw.config.get('wgScript') + '?diff=' + diffVal;
-		oldidVal = mw.util.getParamValue('oldid', href);
+		newHref = mw.config.get( 'wgScript' ) + '?diff=' + diffVal;
+		oldidVal = mw.util.getParamValue( 'oldid', href );
 		if (oldidVal) {
 			newHref += '&oldid=' + oldidVal;
 		}
-		$(this).attr('href', newHref);
-	});
-});
+		$( this ).attr( 'href', newHref );
+	} );
+} );
 
 }( jQuery, mediaWiki ) );
