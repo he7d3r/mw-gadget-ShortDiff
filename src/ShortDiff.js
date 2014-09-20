@@ -6,7 +6,9 @@
  * Due to rewrite rules may not work by default on wikis outside Wikimedia.
  *
  * @source: [[meta:MediaWiki:Gadget-ShortDiff.js]]
- * @author: Krinkle, [[User:Helder.wiki]]
+ * @author: Krinkle
+ * @author: Helder (https://github.com/he7d3r)
+ * @license: CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/>
  * @revision: 4
  */
 /*jslint browser: true, white: true*/
