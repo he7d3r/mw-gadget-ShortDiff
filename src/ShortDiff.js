@@ -8,7 +8,6 @@
  * @source: [[meta:MediaWiki:Gadget-ShortDiff.js]]
  * @author: Krinkle, [[User:Helder.wiki]]
  * @revision: 4
- * @tracking: [[Special:GlobalUsage/User:Helder.wiki/Tools/ShortDiff.js]] ([[File:User:Helder.wiki/Tools/ShortDiff.js]])
  */
 /*jslint browser: true, white: true*/
 /*global jQuery, mediaWiki */
