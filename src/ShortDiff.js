@@ -11,8 +11,6 @@
  * @license: CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/>
  * @revision: 4
  */
-/*jslint browser: true, white: true*/
-/*global jQuery, mediaWiki */
 ( function ( $, mw ) {
 'use strict';
 
