@@ -5,7 +5,7 @@
  * http://wiki.org/w/index.php?diff=1[&oldid=1]
  * Due to rewrite rules may not work by default on wikis outside Wikimedia.
  *
- * @source: [[meta:MediaWiki:Gadget-ShortDiff.js]]
+ * @source: [[m:MediaWiki:Gadget-ShortDiff.js]]
  * @author: Krinkle
  * @author: Helder (https://github.com/he7d3r)
  * @license: CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/>
