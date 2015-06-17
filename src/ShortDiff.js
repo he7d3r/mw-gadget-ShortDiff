@@ -20,7 +20,7 @@
 				href = $(this).attr('href'),
 				diffVal = mw.util.getParamValue('diff', href);
 			if ( !href
-				|| $.inArray( diffVal, [ undefined, null, '', 0, '0', 'cur' ] ) !== -1
+				|| $.inArray( diffVal, [ undefined, null, '', 0, '0', 'cur', 'last' ] ) !== -1
 				|| $(this).parent().attr( 'id' ) === 't-permalink'
 				|| ( href.indexOf( location.host ) === -1
 					&& href.indexOf( '/w/index.php' ) !== 0
